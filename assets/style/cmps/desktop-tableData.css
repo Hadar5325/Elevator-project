@@ -1,0 +1,11 @@
+tr {
+    height: var(--heightTrDesktop);
+}
+
+td {
+    width: var(--widthTrDesktop);
+}
+
+svg {
+    height: var(--svgDesktop);
+}

@@ -1,0 +1,55 @@
+section.app {
+    background-color: var(--clr1);
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+        "header"
+        "table";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.header-execrise {
+    font-weight: bold;
+    grid-area: header;
+    text-align: center;
+    align-self: center;
+}
+
+div.table {
+    font-size: var(--fontSizeMobile);
+    grid-area: table;
+    user-select: none;
+}
+
+section.container {
+    background-color: var(--clr2);
+}
+
+button {
+    height: var(--heightButton);
+    width: var(--widthButton);
+    padding: var(--paddingButton);
+    border-radius: var(--borderRadiusButton);
+}
+
+button.call {
+    color: var(--clr2);
+    background-color: var(--clr4);
+    border: var(--borderButton) solid var(--clr4);
+}
+
+button.waiting {
+    color: var(--clr2);
+    background-color: var(--clr5);
+    border: var(--borderButton) solid var(--clr5);
+}
+
+button.arrived {
+
+    font-weight: bold;
+    color: var(--clr4);
+    background-color: var(--clr1);
+    border: var(--borderButton) solid var(--clr4);
+}

@@ -1,0 +1,17 @@
+tr {
+    height: var(--heightTrTablet);
+    background-color: var(--clr2);
+}
+
+td {
+    width: var(--widthtfTablet);
+    padding: var(--paddingTdTablet);
+}
+
+svg {
+    height: var(--svgTablet);
+}
+td.outside-table,
+td.button {
+    width: var(--widthTdButtonTablet);
+}

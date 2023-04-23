@@ -1,0 +1,46 @@
+:root {
+  --clr1: #eeeeee;
+  --clr2: #ffffff;
+  --clr3: #f3f3f3;
+  --clr4: #5bcd88;
+  --clr5: #ed484d;
+  --clr6: black;
+  --clr7: red;
+  --clr8: rgb(33, 244, 33);
+
+
+  /*Elevator*/
+
+  --topHeading: 20px;
+  --bottomHeading: 40px;
+
+  --heightButton: 30px;
+  --widthButton: 70px;
+  --paddingButton: 4px;
+  --borderRadiusButton: 3px;
+
+  --borderButton: 1.5px;
+  --fontSizeMobile: 15px;
+
+  /* Table Data */
+  --heightTrMobile: 12px;
+  --widthTdMobile: 12px;
+  --paddingTdMobile: 5px;
+  --borderTdMobile: 2px;
+
+  --widthTdButton: 12px;
+  --svgMobile: 12px;
+
+  /* Tablet */
+  --heightTrTablet: 12px;
+  --widthtfTablet:60px;
+  --paddingTdTablet:10px;
+  --widthTdButtonTablet: 120px;
+
+  --svgTablet: 18px;
+
+  /* Desktop */
+  --heightTrDesktop: 20px;
+  --widthTrDesktop: 70px;
+  --svgDesktop: 20px;
+}

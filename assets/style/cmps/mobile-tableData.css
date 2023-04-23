@@ -1,0 +1,43 @@
+table {
+    margin: 0 auto;
+    background-color: var(--clr1);
+}
+
+tr {
+    height: var(--heightTrMobile);
+    background-color: var(--clr2);
+}
+
+td {
+    width: var(--widthTdMobile);
+    border: var(--borderTdMobile) solid var(--clr2);
+    padding: var(--paddingTdMobile);
+    text-align: center;
+}
+
+td.outside-table,
+td.button {
+    background-color: var(--clr1);
+    border: var(--clr1);
+    text-align: right;
+    width: var(--widthTdButton);
+}
+button{
+    cursor: pointer;
+}
+
+svg {
+    height: var(--svgMobile);
+}
+
+path.elevator-path {
+    fill: var(--clr6);
+}
+
+path.left {
+    fill: var(--clr7);
+}
+
+path.arrived {
+    fill: var(--clr8);
+}

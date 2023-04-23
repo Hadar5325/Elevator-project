@@ -1,0 +1,10 @@
+@import 'setup/vars.css';
+@import 'base/base.css';
+
+/** Mobile First **/
+@import "views/mobile-elevator.css";
+@import "views/desktop-elevator.css" screen and (min-width: 800px);
+
+@import "cmps/mobile-tableData.css";
+@import "cmps/tablet-tableData.css" screen and (min-width: 450px);
+@import "cmps/desktop-tableData.css" screen and (min-width: 800px);
